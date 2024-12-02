@@ -300,7 +300,7 @@ fi
 # Install NVM, Node, npm and yarn
 echo -e ${YELLOW}"Now to install NVM, Node, npm and yarn${NC}"
 sleep 2
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+curl https://raw.gitmirror.com/creationix/nvm/master/install.sh | bash
 
 # Add environment variables to .profile
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.profile
