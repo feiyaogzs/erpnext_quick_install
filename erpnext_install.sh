@@ -243,7 +243,7 @@ esac
 
 sudo apt install fontconfig libxrender1 xfonts-75dpi xfonts-base -y
 # Download and install wkhtmltox for the detected architecture
-wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_$arch.deb && \
+wget https://bgithub.xyz/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_$arch.deb && \
 sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_$arch.deb || true && \
 sudo cp /usr/local/bin/wkhtmlto* /usr/bin/ && \
 sudo chmod a+x /usr/bin/wk* && \
