@@ -330,6 +330,7 @@ if [ -z "$py_version" ] || [ "$py_major" -lt 3 ] || [ "$py_major" -eq 3 -a "$py_
     source $USER/bin/activate
     nvm use $node_version
 fi
+npm config set registry https://registry.npmmirror.com
 
 # Install bench
 echo -e "${YELLOW}Now let's install bench${NC}"
