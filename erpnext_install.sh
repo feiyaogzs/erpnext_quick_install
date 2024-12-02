@@ -342,7 +342,7 @@ if [[ -n "$externally_managed_file" ]]; then
     sudo python3 -m pip config --global set global.break-system-packages true
 fi
 
-
+sudo apt install python3.10-dev
 sudo apt install python3-pip -y
 sudo pip3 install frappe-bench
 
