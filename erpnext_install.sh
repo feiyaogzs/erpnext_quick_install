@@ -7,7 +7,7 @@ handle_error() {
     echo "An error occurred on line $line with exit status $exit_code"
     exit $exit_code
 }
-
+npm config set registry https://registry.npmmirror.com/
 trap 'handle_error $LINENO' ERR
 set -e
 
